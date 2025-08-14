@@ -1,19 +1,20 @@
 # Core dependencies
-streamlit
-langchain
-sentence-transformers
-faiss-cpu
-PyPDF2
-pdfplumber
-openai
-chromadb
+streamlit==1.48.1
+langchain==0.3.27
+sentence-transformers==5.1.0
+faiss-cpu==1.12.0
+PyPDF2==3.0.1
+pdfplumber==0.11.7
+openai==1.99.9
+chromadb==1.0.16
+
 
 # Useful utilities
-python-dotenv
-tqdm
-requests
-pandas
+python-dotenv==1.1.1
+tqdm==4.67.1
+requests==2.32.4
+pandas==2.3.1
 
 # For deployment
-fastapi
-uvicorn
+fastapi==0.116.1
+uvicorn==0.35.0
