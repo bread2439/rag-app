@@ -1,0 +1,19 @@
+# Core dependencies
+streamlit
+langchain
+sentence-transformers
+faiss-cpu
+PyPDF2
+pdfplumber
+openai
+chromadb
+
+# Useful utilities
+python-dotenv
+tqdm
+requests
+pandas
+
+# For deployment
+fastapi
+uvicorn
