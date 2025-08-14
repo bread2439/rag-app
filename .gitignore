@@ -1,0 +1,92 @@
+### Visual Studio / IDE ###
+.vs/
+.vscode/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.user
+*.suo
+*.rsuser
+*.sln            
+*.pyproj         
+Generated\ Files/
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+# Azure publish
+*.pubxml
+*.publishproj
+PublishScripts/
+
+# Node
+node_modules/
+
+# OS noise
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
+.venv/
+env/
+venv/
+ENV/
+.env
+*.env
+*.env.*
+
+# Packaging / build
+build/
+dist/
+.eggs/
+*.egg-info/
+wheels/
+share/python-wheels/
+.installed.cfg
+
+# Tests / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints/
+
+### Project data & local caches ###
+data/
+cache/
+*.sqlite
+*.sqlite3
+*.db
+*.parquet
+*.csv
+*.tsv
+*.pkl
+*.joblib
+
+### Streamlit / HF Spaces ###
+.streamlit/secrets.toml
+.streamlit/config.toml
+.huggingface/
+.space/
