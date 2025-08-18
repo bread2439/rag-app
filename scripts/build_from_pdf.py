@@ -28,6 +28,6 @@ def process_pdf(path: Path):
     logger.info("doc_hash=%s  cache=%s", doc_hash, paths.root)
 
 if __name__ == "__main__":
-    sample = Path("eval/sample_pdfs/nn_decoders_for_surface_codes.pdf")  # drop a pdf here
+    sample = Path("eval/sample_pdfs/nn_decoders_for_surface_codes.pdf")  # hard code pdf for testing
     assert sample.exists(), "Put a sample PDF at eval/sample_pdfs/your_sample.pdf"
     process_pdf(sample)
